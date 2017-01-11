@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+<title>Simple QUIC Test</title>
+</head>
+
+<body>
+  <div id='loadtimes'>
+    Not loaded yet...
+  </div>
+</body>
+
+<script type="text/javascript">
+  document.getElementById('loadtimes').innerText = chrome.loadTimes().connectionInfo
+</script>
